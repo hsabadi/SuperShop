@@ -10,7 +10,7 @@ import { Card, CardContent } from '@/components/ui/card';
 const Index = () => {
   const platforms = [
     {
-      name: 'Instagram',
+      name: 'Instagrams',
       icon: '📸',
       description: 'احصل على متابعين حقيقيين وإعجابات وتعليقات على انستغرام',
     },
