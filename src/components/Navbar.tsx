@@ -16,7 +16,7 @@ const Navbar = () => {
           to="/"
           className="text-2xl font-bold gradient-text"
         >
-Hson Store        </Link>
+Super Shop        </Link>
         
         {/* Desktop Menu */}
         <div className="hidden md:flex items-center space-x-6">
