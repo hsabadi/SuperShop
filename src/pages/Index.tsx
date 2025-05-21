@@ -6,6 +6,15 @@ import Footer from '@/components/Footer';
 import { Button } from '@/components/ui/button';
 import { Link } from 'react-router-dom';
 import { Card, CardContent } from '@/components/ui/card';
+import ReactDOM from "react-dom/client";
+import { BrowserRouter } from "react-router-dom";
+import App from "./App";
+
+ReactDOM.createRoot(document.getElementById("root")!).render(
+  <BrowserRouter basename="/xx/">
+    <App />
+  </BrowserRouter>
+);
 
 const Index = () => {
   const platforms = [
